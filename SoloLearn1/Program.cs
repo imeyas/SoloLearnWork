@@ -53,7 +53,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
             int x4 = ((7 + 2) * 5);
             Console.WriteLine(x4); //Operator precedence showing parenthesis performed first as the highest precedence
 
-            //Question: How do I feed this line data that will be used in the place of {0} below, instead of running as "... 0 years old?
+            //Question: How do I feed this line data that will be used in the place of {0} below, instead of running as "... 0 years old"?
             int age = Convert.ToInt32(Console.ReadLine()); 
             Console.WriteLine("You are {0} years old", age);
 
