@@ -1,0 +1,15 @@
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\bin\Debug\net6.0\SoloLearn1.exe
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\bin\Debug\net6.0\SoloLearn1.deps.json
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\bin\Debug\net6.0\SoloLearn1.runtimeconfig.json
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\bin\Debug\net6.0\SoloLearn1.dll
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\bin\Debug\net6.0\ref\SoloLearn1.dll
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\bin\Debug\net6.0\SoloLearn1.pdb
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\obj\Debug\net6.0\SoloLearn1.csproj.AssemblyReference.cache
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\obj\Debug\net6.0\SoloLearn1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\obj\Debug\net6.0\SoloLearn1.AssemblyInfoInputs.cache
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\obj\Debug\net6.0\SoloLearn1.AssemblyInfo.cs
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\obj\Debug\net6.0\SoloLearn1.csproj.CoreCompileInputs.cache
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\obj\Debug\net6.0\SoloLearn1.dll
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\obj\Debug\net6.0\ref\SoloLearn1.dll
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\obj\Debug\net6.0\SoloLearn1.pdb
+C:\Users\Ebo The Grateful\Desktop\Repos\EAC\SoloLearn\SoloLearn1\SoloLearn1\obj\Debug\net6.0\SoloLearn1.genruntimeconfig.cache
