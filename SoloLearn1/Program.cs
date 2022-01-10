@@ -88,15 +88,16 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
 
             //This code takes in the radius input of 5, a constant of pi (3.14) and outputs the area of a circle (78.5)
             const double pi = 3.14;
-            double radius = 5;
+            double radius = 5.0;
+            Console.WriteLine("Please enter the radius");
             radius = Convert.ToDouble(Console.ReadLine());
             double area = pi * (radius * radius);
             Console.WriteLine(area);
-           
-            //Question: How do I feed this line data that will be used in the place of {0} below, instead of running as "... 0 years old"?
+
+            //This code is asking user for their age, reading that and outputting a sentence that tells them how old they are
+            Console.WriteLine("What is your age?");
             int age = Convert.ToInt32(Console.ReadLine()); 
             Console.WriteLine("You are {0} years old", age);
-
 
         }
     }
