@@ -53,6 +53,46 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
             int x4 = ((7 + 2) * 5);
             Console.WriteLine(x4); //Operator precedence showing parenthesis performed first as the highest precedence
 
+            //This session is about Assignment operators
+            int x5 = 45;
+            x5 += 10;
+            Console.WriteLine(x5);
+            int y4 = 45;
+            y4 -= 10;
+            Console.WriteLine(y4);
+
+            //This session is about Increment operators
+            int y5 = 7;
+            y5++;
+            Console.WriteLine(y5);
+
+            int a = 6;
+            int b = ++a;
+            Console.WriteLine(b); //This code uses the Prefixed Increment operator which increments the value of 'a' and then assigned it to 'b'
+
+            int a1 = 10;
+            int b1 = a1++;
+            Console.WriteLine(b1); //This code uses the Postfixed Increment operator which assigned the value of a1 to b1 and then increments a1
+            Console.WriteLine(a1);
+
+            //This session is about Decrement operator, which works in the same way as the Increment but instead of incrementing (adding) it decrements (decreases) by one
+            int a3 = 8;
+            a3--;
+            Console.WriteLine(a3);
+
+            //Used this code to solve for the answer to a quiz question
+            int a4 = 15;
+            int b4 = 6;
+            a4 %= b4;
+            Console.WriteLine(a4);
+
+            //This code takes in the radius input of 5, a constant of pi (3.14) and outputs the area of a circle
+            const double pi = 3.14;
+            double radius = 5;
+            radius = Convert.ToDouble(Console.ReadLine());
+            double area = pi * (radius * radius);
+            Console.WriteLine(area);
+           
             //Question: How do I feed this line data that will be used in the place of {0} below, instead of running as "... 0 years old"?
             int age = Convert.ToInt32(Console.ReadLine()); 
             Console.WriteLine("You are {0} years old", age);
