@@ -86,7 +86,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
             a4 %= b4;
             Console.WriteLine(a4);
 
-            //This code takes in the radius input of 5, a constant of pi (3.14) and outputs the area of a circle
+            //This code takes in the radius input of 5, a constant of pi (3.14) and outputs the area of a circle (78.5)
             const double pi = 3.14;
             double radius = 5;
             radius = Convert.ToDouble(Console.ReadLine());
