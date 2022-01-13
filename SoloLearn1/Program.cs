@@ -99,6 +99,55 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
             int age = Convert.ToInt32(Console.ReadLine()); 
             Console.WriteLine("You are {0} years old", age);
 
+            //If statements
+
+            int e = 8;
+            int e1 = 9;
+
+            if (e > e1)
+            {
+                Console.WriteLine($"Greater than {e}");
+            }
+            else if (e < e1)
+            {
+                Console.WriteLine($"Less than {e1}");
+            }
+            else
+            {
+                Console.WriteLine($"Must be {e1}");
+            }
+
+            if (a == b)
+                Console.WriteLine("Equal");
+
+            int grade = 89;
+
+            if (grade < 70)
+            {
+                Console.WriteLine("Did not pass");
+            }
+            else
+            {
+                Console.WriteLine($"Passed with {grade}");
+            }
+
+            //Syntax Sugar exercise - refactoring code to infered typing, string interpolation and ternary
+
+            var answer = 4;
+            string response;
+
+            //{
+            //    response = answer + " is less than nine";
+            //}
+            //else
+            //{
+            //    response = answer + “greater than or equal to nine”;
+            //}
+
+            //Refactored code
+            response = (answer < 9) ? ($"{answer} is less than nine") : ($"{answer} is greater than or equal to nine");
+            Console.WriteLine(response);
+
         }
     }
 }
