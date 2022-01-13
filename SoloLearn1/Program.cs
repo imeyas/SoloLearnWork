@@ -145,7 +145,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
             //}
 
             //Refactored code
-            response = (answer < 9) ? ($"{answer} is less than nine") : ($"{answer} is greater than or equal to nine");
+            response = (answer < 9) ? $"{answer} is less than nine" : $"{answer} is greater than or equal to nine";
             Console.WriteLine(response);
 
         }
