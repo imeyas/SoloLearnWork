@@ -10,6 +10,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Hello, World!"); //Line of code to pay respect to the craft lol
 
             // Decided to add to the actual lesson code with catentation learned in class; and adding the decimal and boolean types
@@ -145,9 +146,228 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
             //}
 
             //Refactored code
+
             response = (answer < 9) ? $"{answer} is less than nine" : $"{answer} is greater than or equal to nine";
             Console.WriteLine(response);
 
+            //Nested If Statements
+
+            int yourAge = 17;
+            if (age > 14)
+            {
+                if (age > 18)
+                {
+                    Console.WriteLine($"Adult");
+                }
+                else
+                {
+                    Console.WriteLine($"Teenager");
+                }
+            }
+            else
+            {
+                if (age > 0)
+                {
+                    Console.WriteLine($"Child");
+                }
+                else
+                {
+                    Console.WriteLine($"Something's wrong");
+                }
+            }
+
+            //The if - else - if statement
+
+            int ageToEnter = 33;
+
+            if (ageToEnter < 21 )
+            {
+                Console.WriteLine($"\nUnder the age limit for this bar");
+            } else if (ageToEnter > 21)
+            {
+                Console.WriteLine($"\nYou may enter the bar");
+            } else
+            {
+                Console.WriteLine($"\nPlease scan your I.D");
+            }
+
+            
+
+            int num = 4;
+
+            switch (num)
+            {
+                case 1:
+                    Console.WriteLine($"\nOne");
+                    break;
+
+                case 2:
+                    Console.WriteLine($"\nTwo");
+                    break;
+
+                case 3:
+                    Console.WriteLine($"\nThree");
+                    break;
+                default:
+                    Console.WriteLine($"\nInvalid input");
+                    break;
+            }
+
+            int numX = 17;
+
+            switch (num)
+            {
+                case 1:
+                    Console.WriteLine($"\nOne");
+                    break;
+
+                case 2:
+                    Console.WriteLine($"\nTwo");
+                    break;
+
+                case 3:
+                    Console.WriteLine($"\nThree");
+                    break;
+
+                case 4:
+                    Console.WriteLine($"\nFour");
+                    break;
+
+                case 5:
+                    Console.WriteLine($"\nFive");
+                    break;
+
+                case 6:
+                    Console.WriteLine($"\nSix");
+                    break;
+
+                case 7:
+                    Console.WriteLine($"\nSeven");
+                    break;
+
+                case 8:
+                    Console.WriteLine($"\nEight");
+                    break;
+
+                case 9:
+                    Console.WriteLine($"\nNine");
+                    break;
+
+                case 10:
+                    Console.WriteLine($"\nTen");
+                    break;
+
+                case 11:
+                    Console.WriteLine($"'\nEleven");
+                    break;
+
+                case 12:
+                    Console.WriteLine($"\nTwelve");
+                    break;
+
+                case 13:
+                    Console.WriteLine($"\nThirteen");
+                    break;
+
+                case 14:
+                    Console.WriteLine($"\nFourteen");
+                    break;
+
+                case 15:
+                    Console.WriteLine($"\nFifteen");
+                    break;
+
+                case 16:
+                    Console.WriteLine($"\nSixteen");
+                    break;
+
+                case 17:
+                    Console.WriteLine($"\nSeventeen");
+                    break;
+
+                default:
+                    Console.WriteLine($"\nInvalid input");
+                    break;
+            }
+
+            
+
+            int numG = 1;
+
+            while (num <= 17)
+            {
+                Console.WriteLine($"\n{num}");
+                num++;
+            }
+
+            int num2 = 2;
+
+            while (num2 <= 17)
+            {
+                Console.WriteLine($"\n{num2}");
+                num2++;
+            }
+
+            int num3 = 3;
+
+            while (num3 <= 17)
+            {
+                Console.WriteLine($"\n{num3}");
+                num3++;
+            }
+
+            int num4 = 4;
+
+            while (num4 <= 17)
+            {
+                Console.WriteLine($"\n{num4}");
+                num4++;
+            }
+
+            int num5 = 5;
+
+            while (num5 <= 17)
+            {
+                Console.WriteLine($"\n{num5}");
+                num5++;
+            }
+            var num6 = 6;
+
+            while (num6 <= 17)
+            {
+                Console.WriteLine($"\n{num6}");
+                num6++;
+            }
+
+            var otherNum = 0;
+
+            while (otherNum <= 17)
+            {
+                Console.WriteLine($"\n{otherNum}");
+                ++otherNum;
+            }
+
+            var otherNum1 = 1;
+
+            while (otherNum1 <7)
+            {
+                Console.WriteLine($"\n{otherNum1}");
+                otherNum1 += 2;
+            }
+
+            var otherNum3 = 0;
+
+            while (++otherNum3 < 6)
+            {
+                Console.WriteLine($"\n{ otherNum3}");
+            }
+
+            var otherNum4 = 0;
+
+            while (otherNum4++ < 6)
+            {
+                Console.WriteLine($"\n{otherNum4}");
+            }    
         }
     }
 }
