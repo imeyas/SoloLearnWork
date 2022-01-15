@@ -191,7 +191,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
                 Console.WriteLine($"\nPlease scan your I.D");
             }
 
-            
+            //Switch statements
 
             int num = 4;
 
@@ -290,7 +290,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
                     break;
             }
 
-            
+            //While loops
 
             int numG = 1;
 
