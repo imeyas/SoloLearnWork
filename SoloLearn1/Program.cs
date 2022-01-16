@@ -368,6 +368,116 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
             {
                 Console.WriteLine($"\n{otherNum4}");
             }    
+
+            
+
+            for (int numDecrease = 10; numDecrease > 0; numDecrease -= 2)
+            {
+                Console.WriteLine($"\n{numDecrease}");
+            }
+
+            int numIncrease = 17;
+
+            for ( ; numIncrease > 0; )
+            {
+                Console.WriteLine($"\n{numIncrease}");
+                numIncrease *= 2;
+            }
+
+            decimal newDecimal = 17.5555m;
+
+            for ( ; newDecimal > 0; )
+            {
+                Console.WriteLine($"\n{newDecimal}");
+                newDecimal /= 3;
+            }
+
+
+            int doWhile = 0;
+
+            do
+            {
+                Console.WriteLine($"\n{doWhile}");
+                doWhile++;
+            } while (doWhile <= 17);
+
+            int doWhileAgain = 10;
+
+            do
+            {
+                Console.WriteLine($"\n{doWhileAgain}");
+                doWhileAgain--;
+            } while (doWhileAgain <= -17);
+
+            int doWhileAgainAgain = 100;
+
+            do
+            {
+                Console.WriteLine($"\n{doWhileAgainAgain}");
+                doWhileAgainAgain /= 2;
+            } while (doWhileAgainAgain == 0);
+
+            int doingWhile = 1000;
+
+            do
+            {
+                if (doingWhile <= 999);
+                Console.WriteLine($"\n{doingWhile}");
+                doingWhile -= 17;
+            } while (doingWhile >= -1000);
+
+            int breakNow = 0;
+
+            while (breakNow <= 17)
+            {
+                if (breakNow == 9)
+                break;
+
+                Console.WriteLine($"\n{breakNow}");
+                breakNow++;
+            }
+
+            int breakNowAgain = 100;
+
+            while (breakNowAgain <= 10000)
+            {
+                if (breakNowAgain >= 10000)
+                    break;
+
+                Console.WriteLine($"\n{breakNowAgain}");
+                breakNowAgain *= 9;
+            }
+
+
+            int continuing = 0;
+
+            for (continuing = 0; continuing < 17; continuing++)
+            {
+                if (continuing == 7)
+                    continue;
+
+                Console.WriteLine($"\n{continuing}");
+            }
+
+            int continueAgain = 100;
+
+            for (continueAgain = 100; continueAgain >= -100; continueAgain--)
+            {
+                if (continueAgain == 55)
+                    continue;
+
+                Console.WriteLine($"\n{continueAgain}");
+            }
+
+            for (int keepGoing = 0; keepGoing < 5; keepGoing++)
+            {
+                if (keepGoing == 5)
+                    continue;
+                Console.WriteLine($"\n{keepGoing}");
+            }
+
+
+
         }
     }
 }
