@@ -10,7 +10,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
     {
         static void Main(string[] args)
         {
-            
+
             Console.WriteLine("Hello, World!"); //Line of code to pay respect to the craft lol
 
             // Decided to add to the actual lesson code with catentation learned in class; and adding the decimal and boolean types
@@ -97,7 +97,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
 
             //This code is asking user for their age, reading that and outputting a sentence that tells them how old they are
             Console.WriteLine("What is your age?");
-            int age = Convert.ToInt32(Console.ReadLine()); 
+            int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("You are {0} years old", age);
 
             //If statements
@@ -152,7 +152,6 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
 
             //Nested If Statements
 
-            int yourAge = 17;
             if (age > 14)
             {
                 if (age > 18)
@@ -180,13 +179,15 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
 
             int ageToEnter = 33;
 
-            if (ageToEnter < 21 )
+            if (ageToEnter < 21)
             {
                 Console.WriteLine($"\nUnder the age limit for this bar");
-            } else if (ageToEnter > 21)
+            }
+            else if (ageToEnter > 21)
             {
                 Console.WriteLine($"\nYou may enter the bar");
-            } else
+            }
+            else
             {
                 Console.WriteLine($"\nPlease scan your I.D");
             }
@@ -213,7 +214,6 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
                     break;
             }
 
-            int numX = 17;
 
             switch (num)
             {
@@ -292,7 +292,6 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
 
             //While loops
 
-            int numG = 1;
 
             while (num <= 17)
             {
@@ -349,7 +348,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
 
             var otherNum1 = 1;
 
-            while (otherNum1 <7)
+            while (otherNum1 < 7)
             {
                 Console.WriteLine($"\n{otherNum1}");
                 otherNum1 += 2;
@@ -367,9 +366,10 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
             while (otherNum4++ < 6)
             {
                 Console.WriteLine($"\n{otherNum4}");
-            }    
+            }
 
-            
+
+            //For loops
 
             for (int numDecrease = 10; numDecrease > 0; numDecrease -= 2)
             {
@@ -378,7 +378,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
 
             int numIncrease = 17;
 
-            for ( ; numIncrease > 0; )
+            for (; numIncrease > 0;)
             {
                 Console.WriteLine($"\n{numIncrease}");
                 numIncrease *= 2;
@@ -386,12 +386,13 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
 
             decimal newDecimal = 17.5555m;
 
-            for ( ; newDecimal > 0; )
+            for (; newDecimal > 0;)
             {
                 Console.WriteLine($"\n{newDecimal}");
                 newDecimal /= 3;
             }
 
+            //Do-While loops
 
             int doWhile = 0;
 
@@ -421,17 +422,19 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
 
             do
             {
-                if (doingWhile <= 999);
+                if (doingWhile <= 999) 
                 Console.WriteLine($"\n{doingWhile}");
                 doingWhile -= 17;
             } while (doingWhile >= -1000);
+
+            //While loops with break
 
             int breakNow = 0;
 
             while (breakNow <= 17)
             {
                 if (breakNow == 9)
-                break;
+                    break;
 
                 Console.WriteLine($"\n{breakNow}");
                 breakNow++;
@@ -448,6 +451,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
                 breakNowAgain *= 9;
             }
 
+            //For loops with continue
 
             int continuing = 0;
 
@@ -476,8 +480,54 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
                 Console.WriteLine($"\n{keepGoing}");
             }
 
+            //If statement bank account balance and account owner's age
+
+            var accountAge = 21;
+            var balance = 540;
+            var minimumBalance = 100;
+
+            if (accountAge > 18 && balance > minimumBalance)
+            {
+                Console.WriteLine($"\nCustomer is {accountAge} years of age with a current account balance of {balance} dollars");
+            }
+
+            //If statement drinking age
+
+            var drinkingAge = 21;
+
+            if (!(drinkingAge > 21))
+            {
+                Console.WriteLine($"\nCustomer is under {drinkingAge} years old. Purchase restricted.");
+            }
+            else
+            {
+                Console.WriteLine($"\nCustomer is over {drinkingAge} years old. Proceed with your purchase.");
+
+            }
+
+                //Basic Calculator Program - Do-While loop that adds two integers and multiplies the sum by 17
+
+                do
+                {
+                    Console.WriteLine($"\nX = ");
+
+                    var xInput = int.TryParse(Console.ReadLine(), out int xResult);
+
+                    Console.WriteLine($"\nY = ");
+                    var yInput = int.TryParse(Console.ReadLine(), out int yResult);
+
+                    var sum = (xResult + yResult) * 17;
+
+                    Console.WriteLine($"\n{sum}");
+
+                    Console.WriteLine($"\nTo enter a new set of numbers, press Enter. To exit this app, type 'exit'");
+                    var exit = Console.ReadLine();
+                    if (exit == "exit")
+                        break;
+                }
+                while (true);
 
 
+            }
         }
     }
-}
