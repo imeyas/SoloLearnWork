@@ -10,6 +10,7 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
     {
         static void Main(string[] args)
         {
+            
 
             Console.WriteLine("Hello, World!"); //Line of code to pay respect to the craft lol
 
@@ -526,8 +527,44 @@ namespace SoloLearn //All code in this program come from SOlolearn lessons
                         break;
                 }
                 while (true);
+            
 
+            DrawPyramid(17);
 
+            Console.WriteLine($"\nWhat level of the game are you on?");
+            int levels = int.Parse(Console.ReadLine());
+            Console.WriteLine("\n",Points(levels));
             }
-        }
+            
+            //Making a pyramid using Methods
+
+            public static void DrawPyramid(int rows)
+            {
+                for (int space = 1; space <= rows; space++)
+            {
+                for (int stars4EachRow = 1; stars4EachRow <= rows; stars4EachRow++)
+                {
+                Console.Write("");
+                }
+
+                for (int currentRow = 1; currentRow <= 2 * space - 1; currentRow++)
+                {
+                Console.Write($"*" + "");
+                }
+
+                Console.WriteLine();
+            }
+            }
+            //Calculating total game level points using Methods
+            public static int Points(int levels)
+            {
+                if (levels == 1)
+                {
+                    return 1;
+                }
+
+                return levels + Points(levels - 1);
+            }
+
+    }
     }
